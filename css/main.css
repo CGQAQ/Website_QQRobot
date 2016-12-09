@@ -1,0 +1,44 @@
+.title_part{
+}
+.content_part{
+    margin-top: 50px;
+}
+.bottom_part{
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+}
+.title{
+    text-align: center;
+}
+.title h1{
+    color: green;
+}
+.title_hr hr{
+    width: 90%;
+}
+.main_list{
+    width: 20%;
+    list-style: none;
+}
+.main_list li{
+    text-align: center;
+}
+.bottom_content{
+    position: relative;
+    margin: auto 5%;
+    width: 90%;
+}
+.bottom_content div h5{
+    margin-bottom: 0px;
+}
+.bottom_part hr{
+    margin-left: 5%;
+    width: 99%;
+}
+.content_part .form{
+    float: right;
+}
+.content_part ul{
+    float: left;
+}

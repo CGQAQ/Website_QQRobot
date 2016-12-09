@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <script src="../js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $.get('http://localhost:8085/test/index.php',{'name':'hello'},function (data) {
+                console.warn(data);
+            });
+        })
+    </script>
+</head>
+<body>
+    <textarea class="tt"></textarea>
+</body>
+</html>

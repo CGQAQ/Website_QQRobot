@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.titleDiv .title {
+    position: relative;
+    text-align: center;
+    margin: 80px auto 50px auto;
+}
+
+.tips h4 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.content{
+    position: relative;
+    text-align: center;
+    -webkit-box-align: center;
+//width: 340px;
+}
+
+.qrcode {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    border: solid 1px;
+//float: none;
+    display: inline-block;
+}
+
+.qricon {
+//display: block;
+    position: absolute;
+    text-align: center;
+    width: 42px;
+    height: 47px;
+    top: 50%;
+    left: 50%;
+    margin: -24px 0 0 -21px;
+    background: url("../img/iconqr.png") center center;
+}
+
+.scanning {
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
+    display: none;
+}
+
+.scanning img{
+    float: left;
+}
+.scanning div{
+    float: left;
+    margin-top: 10%;
+}
